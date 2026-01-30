@@ -1,0 +1,66 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#5baec7;
+}
+
+header{
+  background:#737373;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+}
+
+.input-container{
+  background:#fff;
+  padding:6px;
+  border-radius:4px;
+}
+
+.input-container input{
+  border:none;
+  outline:none;
+  padding:6px;
+}
+
+.input-container button{
+  border:none;
+  padding:6px 10px;
+  background:#ff6b3d;
+  color:#fff;
+  cursor:pointer;
+}
+
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height  :80vh;
+}
+
+.weather-container{
+  display:flex;
+  gap:30px;
+  background:#2c3e44;
+  padding:25px 35px;
+  border-radius:6px;
+  color:#fff;
+  align-items:center;
+}
+
+.temperature{
+  font-size:28px;
+}
+
+.location-date{
+  text-align:center;
+}
+
+.weather-status{
+  text-align:center;
+}
+
+.weather-status img{
+  width:40px;
+  height:40px;
+}
