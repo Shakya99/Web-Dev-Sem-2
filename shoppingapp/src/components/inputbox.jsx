@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const inputbox = () => {
-  const[inputText, setInputText] = useState("");
+const InputBox = () => {
+  const [inputText, setInputText] = useState("");
 
-  const handleChange = (e)=>{
+  const handleChange = (e) => {
     setInputText(e.target.value);
   }
   const handleClick = () =>{
@@ -11,14 +11,14 @@ const inputbox = () => {
   }
   return (
    <>
-   <input type="text" n
+   <input type="text" 
     placeholder="type"
     value={inputText} 
-    onChange={e => setInputText(e.target.value)} />
+    onChange={handleChange} />
    <button onClick={handleClick}>Submit</button>
    </>
   )
 }
 
-export default inputbox
+export default InputBox
 

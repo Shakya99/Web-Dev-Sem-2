@@ -1,5 +1,8 @@
 import './App.css'
-import InputBox from './components/InputBox';
+import InputBox from './components/inputbox';
+import Shopping from './components/shopping';
+
+
 
 function App() {
   const handleCheckout = () => {
@@ -17,6 +20,7 @@ function App() {
         >
           Checkout
         </button>
+        <Shopping />
       </div>
     </div>
   )
